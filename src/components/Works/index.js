@@ -16,7 +16,7 @@ const projects = [
     ],
     About:
       "Created an OTT streaming platform where the user can browse through various movies and webseries using javaScript and reactJs. It is a similar version of netflix with my own design touch, showing SignIn page, SignUp Page, browse page and alot more.This uses Firebase Services for user authentication and Cloud Firestore to sync and store the videos",
-    Image: "./netflixpicture.png",
+    Image: "./netflix.PNG",
     Link: "https://netflixgpt-beta.vercel.app/",
   },
   {
