@@ -39,7 +39,7 @@ const projects = [
     TechUsed: ["Html5", "Css", "JavScript", "ReactJs"],
     About:
       "An image exploration web Application created using ReactJS that allows userto view several random images and find images of their choice.",
-    Image: "./pixy.PNG",
+    Image: "./pixxy.PNG",
     Link: "https://pixyworld.netlify.app/",
   },
   {
