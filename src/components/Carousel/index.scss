@@ -1,0 +1,36 @@
+.main-wrapper{
+    height: 68vh;
+    background-color: black;
+    padding-top: 1px;
+    .card-wrapper{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    height: 35vh;
+    opacity: 0.9;
+    margin : 0px 20px;
+
+    .inner-wrapper{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    width: 77%;
+    height: 22vh;
+    margin: auto;
+    border: 2px solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    }
+
+    .image{
+        width: 41%;
+    padding-top : 34px;
+    }
+}
+
+}

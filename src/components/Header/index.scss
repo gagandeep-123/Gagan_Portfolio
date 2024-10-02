@@ -1,0 +1,38 @@
+.outer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 36px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 90px;
+    position: relative;
+    top: 0;
+    .inner{
+        display: flex;
+        align-items: center;
+        .text{
+            padding: 0px 25px;
+    font-size: 23px;
+
+        }
+    }
+    .logo{
+        height: 64px;
+    }
+    .list{
+        display: flex;
+    justify-content: space-between;
+    .btn{
+        border: none;
+    background: transparent;
+    font-size: 23px;
+    color: white;
+    cursor: pointer;
+    margin-right: 24px;
+    }
+    .btn:hover{
+        color: rgb(208, 208, 208);
+    }
+    }
+}

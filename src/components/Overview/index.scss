@@ -1,0 +1,93 @@
+.main{
+    background-color: white;
+    color: black;
+    height: auto;
+    margin-top: 133px;
+    display: flex;
+    flex-direction: row-reverse;
+    .image-container{
+        .image{
+            width: 93%;
+    height: 78vh;
+    margin-right: 35px
+        }
+    }
+
+    .text-container{
+            width: 40%;
+    margin-right: 120px;
+    text-align: start;
+    padding-top: 30px;
+    .heading-two{
+        font-size: 2.7em;
+    margin-bottom: 20px
+    }
+    .heading-four{
+        font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    }
+
+    .para{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .button-div{
+
+        display: flex;
+        .button{
+            margin-right: 16px;
+    width: 38px;
+    height: 36px;
+    border-radius: 35px;
+        margin-bottom: 20px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+
+        }
+    }
+    .resume-div{
+        width: 30%;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+        margin-bottom: 31px;
+        border-radius: 8px;
+
+    .anchor{
+        color: white;
+        text-decoration: none;
+    }
+    
+    }
+    }
+
+}
+@keyframes gradientTransition {
+  0% {
+    color: #a42727;
+  }
+  25% {
+    color: #227349;
+  }
+  50% {
+    color: #441e8c;
+  }
+  75% {
+    color: #b17d7d;
+  }
+  100% {
+    color: #9a771d;
+  }
+}
+
+.heading-two {
+  background-size: 400% 400%;
+  animation: gradientTransition 32s linear infinite;
+}

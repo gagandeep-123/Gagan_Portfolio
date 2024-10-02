@@ -1,0 +1,27 @@
+.outer-div{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    opacity: 0.9;
+    background-color: black;
+
+    .inner-div{
+        display: flex;
+    flex-direction: column;
+    .text-head{
+            color: #b6b3b3;
+            font-size: 23px;
+            opacity: 0.7;
+
+        
+    }
+       
+        .text{
+            font-size: 15px;
+            color: #b6b3b3;
+            line-height: 0.25;
+            opacity: 0.7;
+
+        }
+    }
+}
