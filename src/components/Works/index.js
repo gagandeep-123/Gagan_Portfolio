@@ -39,7 +39,7 @@ const projects = [
     TechUsed: ["Html5", "Css", "JavScript", "ReactJs"],
     About:
       "An image exploration web Application created using ReactJS that allows userto view several random images and find images of their choice.",
-    Image: "./pixypicture.png",
+    Image: "./pixy.PNG",
     Link: "https://pixyworld.netlify.app/",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     TechUsed: ["ReactJs", "Redux", "Css(Sass)", "NodeJs", "Express", "MongoDB"],
     About:
       "Rentz.com is a property rental platform developed using ReactJS and NodeJS, MongoDB for user authentication. It consists of user LOGIN AND SIGNUP functionality with avatar selection, a curated property list according to the selected location by the user, Filterfunctionality to filterthe property results on the basis ofthe property size and budget. Cart functionality that allows the userto add properties and also allows to remove from the wishlist and clearthe cart,payment section to view the final cart value.",
-    Image: "./propertypicture.png",
+    Image: "./rent.PNG",
     Link: "https://totality-frontend-challenge-frontend-web.onrender.com/",
   },
 ];
