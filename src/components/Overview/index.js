@@ -2,6 +2,7 @@ import React from 'react'
 import './index.scss';
 import { FaLinkedinIn } from "react-icons/fa6";
 import { SiGithub } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
 
 
 
@@ -33,14 +34,25 @@ const index = () => {
         </p>
         <div className="button-div">
           <a
-            href="https://www.linkedin.com/in/gagandeep-singh-664bb422b/" target='_blank'
+            href="https://www.linkedin.com/in/gagandeep-singh-664bb422b/"
+            target="_blank"
             className="button"
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://github.com/gagandeep-123" target='_blank'
-            className="button">
+          <a
+            href="https://github.com/gagandeep-123"
+            target="_blank"
+            className="button"
+          >
             <SiGithub />
+          </a>
+          <a
+            href="https://leetcode.com/u/gagandeep121/"
+            target="_blank"
+            className="button"
+          >
+            <SiLeetcode />
           </a>
         </div>
         <div className="resume-div">
@@ -50,7 +62,7 @@ const index = () => {
         </div>
       </div>
       <div className="image-container">
-        <img className='image' src="./hi.gif"></img>
+        <img className="image" src="./hi.gif"></img>
       </div>
     </div>
   );

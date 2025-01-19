@@ -58,10 +58,14 @@
     font-weight: 400;
     background-color: #F7EF8A;
     font-size: 17px;
-    font-weight: 900
+    font-weight: 900;
+    cursor: pointer;
 
         
 
+    }
+    .btn:hover{
+        background-color: #e2d519;
     }
 
     .inner-box{
@@ -82,3 +86,27 @@ display: flex;
     }
     }
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+    .outside{
+        .image-box{
+            justify-content: center !important;
+        }
+        .text-box{
+            align-items: center !important;
+
+            .inner-box{
+                flex-direction: column;
+            }
+            .input1{
+                height: 80px;
+            }
+        }
+        height: 130vh !important;
+    }
+  }

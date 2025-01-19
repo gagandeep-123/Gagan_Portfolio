@@ -31,7 +31,7 @@ const projects = [
     ],
     About:
       "Quill. is Blog sharing Platform which enables the users to write, share and read stories. It allows the users to save stories as drafts, publish their stories or schedule them for later. Quill includes a secured Sign up via Email OTP verification. The user can bookmark the other stories for reading and add notes as well. The user can follow their favourite authors and react on their stories as well",
-    Image: "./quill.jpg",
+    Image: "https://gagan-portfolio-b67e.onrender.com/quill.jpg",
     Link: "https://quill-blogging-website.onrender.com/",
   },
   {
@@ -90,10 +90,10 @@ const Index = () => {
                   <div className="about-text">{item.About}</div>
                 </div>
                 <div style={{ color: "white" }} className="tech-div">
-                  <div style={{ fontWeight: "700", color: "pink" }}>
+                  <div className='techhBox' style={{ fontWeight: "700", color: "pink" }}>
                     Technolgies Used:
                   </div>
-                  <div
+                  <div className='allTechs'
                     style={{
                       display: "flex",
                       justifyContent: "space-between",
@@ -105,7 +105,7 @@ const Index = () => {
 
                     {item.TechUsed.map((ele) => {
                       return (
-                        <div
+                        <div className='techUsed'
                           style={{
                             width: "auto",
                             fontWeight: "700",
@@ -115,8 +115,10 @@ const Index = () => {
                             display: "flex",
                             padding: "6px 10px",
                             marginRight: "9px",
-                            color : "black",
+                            color: "black",
+                            cursor: "pointer"
                           }}
+                          
                         >
                           {ele}
                         </div>

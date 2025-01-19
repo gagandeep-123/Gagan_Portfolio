@@ -38,8 +38,8 @@
         display: flex;
         .button{
             margin-right: 16px;
-    width: 38px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     border-radius: 35px;
         margin-bottom: 20px;
         display: flex;
@@ -48,6 +48,9 @@
     border: 2px solid black;
     color: black;
 
+        }
+        .button:hover{
+             background-color: rgb(208, 208, 208);
         }
     }
     .resume-div{
@@ -91,3 +94,35 @@
   background-size: 400% 400%;
   animation: gradientTransition 32s linear infinite;
 }
+
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .main{
+
+      margin-top: 100px;
+      flex-direction: column-reverse;
+
+      .image-container{
+
+        .image{
+          height: 50vh;
+          width: 100%;
+        }
+      }
+      .text-container{
+        width: unset;
+        padding: 0px 25px;
+        margin-right: 0px;
+        .heading-two{
+          font-size: 24px;
+        }
+        .resume-div{
+          width: 46%;
+        }
+      }
+    }
+
+  }

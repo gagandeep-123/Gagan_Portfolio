@@ -23,7 +23,6 @@ const HeroPage = () => {
       <div id = "contact">
         <Contact />
       </div>
-
       <Footer />
     </div>
   );

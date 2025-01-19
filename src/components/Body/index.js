@@ -31,7 +31,7 @@ const Index = () => {
           {text} <Cursor />
         </span>
       </h1>
-      <img
+      <img className='image2'
         style={{ position: "relative", height: "65vh" }}
         src="./background2.png"
       ></img>

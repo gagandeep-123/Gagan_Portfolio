@@ -14,7 +14,11 @@
         .text{
             padding: 0px 25px;
     font-size: 23px;
+    cursor: pointer;
 
+        }
+        .text:hover{
+            color: rgb(208, 208, 208);
         }
     }
     .logo{
@@ -34,5 +38,30 @@
     .btn:hover{
         color: rgb(208, 208, 208);
     }
+    }
+}
+ @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    /* Styles for iPhone SE */
+
+    .outer{
+        padding: 0px;
+        width: 100%;
+
+        .inner{
+            img{
+                height: 60px;
+            }
+            width: 100%;
+            justify-content: space-between;
+            .text{
+                font-size: 20px;
+            }
+        }
+        .list{
+            display: none;
+        }
     }
 }

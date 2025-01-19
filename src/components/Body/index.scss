@@ -18,3 +18,23 @@
     font-weight: 200;
     }
 }
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    .outside{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .entry-text{
+          align-items: center;
+          font-size: 30px;
+          min-height: 30%;
+        }
+        .image2{
+          height: 45vh !important;
+        }
+
+    }
+  }
