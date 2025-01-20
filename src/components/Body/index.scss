@@ -18,10 +18,7 @@
     font-weight: 200;
     }
 }
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (max-width: 768px) {
     .outside{
         flex-direction: column;
         justify-content: center;
