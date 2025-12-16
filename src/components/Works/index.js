@@ -16,7 +16,7 @@ const projects = [
     ],
     About:
       "PennyCTRL helps users record, categorize, and monitor their income and expenses in one place. It provides clear visual insights into spending patterns through charts and summaries, enabling users to better manage their finances, track monthly budgets, and make informed financial decisions.",
-    Image: "./pennyCTRL.PNG",
+    Image: "./pennyCTRL.png",
     Link: "#",
   },
   {
