@@ -50,6 +50,14 @@ const projects = [
     Image: "./rent.PNG",
     Link: "https://totality-frontend-challenge-frontend-web.onrender.com/",
   },
+   {
+    Name: "Netflix",
+    TechUsed: ["ReactJs", "Redux", "Css(Sass)", "NodeJs", "Express", "MongoDB"],
+    About:
+      "A Netflix app built with React, HTML, and JavaScript replicates the core UI and browsing experience of Netflix. It fetches movies and TV shows from an external API and displays them in categorized rows.This project highlights skills in React components, API integration, and responsive UI design",
+    Image: "./netflix.PNG",
+    Link: "https://netflixgpt-git-main-gagandeep-123s-projects.vercel.app/",
+  },
 ];
 
 const Index = () => {

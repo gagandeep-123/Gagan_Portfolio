@@ -15,7 +15,7 @@ const skillArr = [
     link: "",
   },
   {
-    img: "https://www.imabhishek.online/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fy178r8ab%2Fproduction%2F674d368475311b60be6403d4ac1a2b36e42ff8bb-1052x1052.png&w=96&q=75",
+    img: "./javascript.png",
     name: "JavaScript",
     link: "",
   },
@@ -25,7 +25,7 @@ const skillArr = [
     link: "",
   },
   {
-    img: "https://www.imabhishek.online/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fy178r8ab%2Fproduction%2F2bb780d2e8cb927ea10345181de06ab528a3523a-225x225.png&w=96&q=75",
+    img: "./redux.png",
     name: "ReduxJs",
     link: "",
   },
@@ -50,8 +50,13 @@ const skillArr = [
     link: "",
   },
   {
-    img: "https://www.imabhishek.online/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fy178r8ab%2Fproduction%2F6aa082f5151d13b65233a269b0f7175e36ce288f-280x280.png&w=96&q=75",
+    img: "./bootstrap.png",
     name: "Bootstrap",
+    link: "",
+  },
+  {
+    img: "./aws.png",
+    name: "AWS",
     link: "",
   },
 ];
